@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Abdul Rahman - GenAI Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-text">MAR</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="C:\Users\admin dell\Desktop\my-portfolio\28-03-26 resume.pdf" download class="nav-link nav-resume"><i class="fas fa-download"></i> Resume</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon"><i class="fas fa-robot"></i></span>
+                    <span class="badge-text">GenAI Engineer</span>
+                </div>
+                <h1 class="hero-title">
+                    Mohammed Abdul<br>
+                    <span class="gradient-text">Rahman</span>
+                </h1>
+                <p class="hero-subtitle">
+                    RAG & Agentic AI | AWS Bedrock | Production LLM Systems | Healthcare Automation
+                </p>
+                <p class="hero-description">
+                    Building and shipping production-grade LLM systems for enterprise healthcare automation. 
+                    Delivered 15x throughput improvements and 25% workload reduction across 1,000+ users.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-value">15x</span>
+                        <span class="stat-label">Throughput Boost</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">1,200+</span>
+                        <span class="stat-label">Charts/Day</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">86%</span>
+                        <span class="stat-label">CPT Accuracy</span>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-dot red"></div>
+                        <div class="window-dot yellow"></div>
+                        <div class="window-dot green"></div>
+                        <span class="window-title">medical_coding_agent.py</span>
+                    </div>
+                    <div class="window-content">
+                        <pre><code><span class="code-keyword">from</span> langchain <span class="code-keyword">import</span> OpenAI
+<span class="code-keyword">from</span> langgraph <span class="code-keyword">import</span> Graph
+
+<span class="code-comment"># Production LLM System</span>
+<span class="code-keyword">class</span> <span class="code-class">MedicalCodingAgent</span>:
+    <span class="code-keyword">def</span> <span class="code-function">__init__</span>(self):
+        self.llm = AWSBedrock(
+            model=<span class="code-string">"anthropic.claude-v2"</span>
+        )
+        self.graph = Neo4jGraph()
+    
+    <span class="code-keyword">def</span> <span class="code-function">process_chart</span>(self, notes):
+        <span class="code-comment"># RAG + Graph-RAG Pipeline</span>
+        context = self.retrieve(notes)
+        codes = self.llm.generate(
+            icd_codes=context.icd,
+            cpt_codes=context.cpt
+        )
+        <span class="code-keyword">return</span> codes</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Professional Summary</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-lead">
+                        Generative AI Engineer with ~2 years of experience building and shipping 
+                        <strong>production-grade LLM systems</strong> for enterprise healthcare automation.
+                    </p>
+                    <p>
+                        Proven track record in <strong>RAG, Graph-RAG, and Agentic AI architectures</strong> on AWS Bedrock. 
+                        Delivered measurable business impact — processing 500–1,200 medical charts/day, 
+                        cutting processing time from 30 min to under 2 min (15x throughput), 
+                        enabling ~25% workload reduction across 1,000+ coders.
+                    </p>
+                    <p>
+                        Full-cycle ownership from system architecture to cloud deployment on AWS. 
+                        Experienced in HIPAA-compliant architectures and collaborating with SMEs to 
+                        align outputs with compliance requirements.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>AWS Certified Cloud Practitioner</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>HIPAA-Compliant Deployments</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Production LLM Systems</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-cards">
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-label">Email</span>
+                            <a href="mailto:abdulrmohammed.ai@gmail.com" class="card-value">abdulrmohammed.ai@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-label">Location</span>
+                            <span class="card-value">Hyderabad, India</span>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-label">GitHub</span>
+                            <a href="https://github.com" target="_blank" class="card-value">View Profile</a>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-label">LinkedIn</span>
+                            <a href="https://linkedin.com" target="_blank" class="card-value">Connect</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Tech Stack</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Generative AI & LLMs</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag primary">RAG</span>
+                        <span class="skill-tag primary">Graph-RAG</span>
+                        <span class="skill-tag">Prompt Engineering</span>
+                        <span class="skill-tag">LLM Evaluation</span>
+                        <span class="skill-tag">Fine-tuning</span>
+                        <span class="skill-tag primary">Agentic Workflows</span>
+                        <span class="skill-tag">Multi-Agent Systems</span>
+                        <span class="skill-tag">MCP</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>AI Frameworks</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag primary">LangChain</span>
+                        <span class="skill-tag primary">LangGraph</span>
+                        <span class="skill-tag">CrewAI</span>
+                        <span class="skill-tag">Agno</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">Flask</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Cloud & Infrastructure</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag primary">AWS Bedrock</span>
+                        <span class="skill-tag">AWS SageMaker</span>
+                        <span class="skill-tag">AWS Lambda</span>
+                        <span class="skill-tag">AWS S3</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">GCP</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Vector & Graph DBs</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag primary">Neo4j</span>
+                        <span class="skill-tag">FAISS</span>
+                        <span class="skill-tag">ChromaDB</span>
+                        <span class="skill-tag">Pinecone</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>MLOps & DevOps</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MLflow</span>
+                        <span class="skill-tag">LangSmith</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">CI/CD</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <h3>NLP & Deep Learning</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Transformers</span>
+                        <span class="skill-tag">BERT</span>
+                        <span class="skill-tag">GPT</span>
+                        <span class="skill-tag">NER</span>
+                        <span class="skill-tag">CNN</span>
+                        <span class="skill-tag">LSTM</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-terminal"></i>
+                        </div>
+                        <h3>Languages & Tools</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag primary">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Bash</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Career Journey</span>
+                <h2 class="section-title">Professional Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="experience-card current">
+                            <div class="card-header">
+                                <div class="company-info">
+                                    <h3>AI/ML Engineer</h3>
+                                    <span class="company-name">Ascent Healthcare Pvt Ltd</span>
+                                </div>
+                                <span class="duration">May 2025 – Present</span>
+                            </div>
+                            <p class="experience-summary">
+                                Building production LLM-powered medical coding systems on AWS Bedrock, 
+                                processing 500-1,200 charts/day with 75-86% accuracy.
+                            </p>
+                            <ul class="experience-achievements">
+                                <li>Built production LLM-powered medical coding system on Amazon Bedrock converting unstructured clinical notes into ICD-10, CPT, and modifier codes</li>
+                                <li>Achieved <strong>15x throughput improvement</strong> (30 min → under 2 min per chart), enabling ~25% workload reduction across 1,000+ medical coders</li>
+                                <li>Architected <strong>Graph-RAG pipeline</strong> combining Neo4j knowledge graphs with semantic vector retrieval for context-aware medical coding</li>
+                                <li>Deployed <strong>Agentic AI knowledge assistant</strong> adopted by ~1,000 new joiners with sub-second query latency, cutting policy lookup time by ~60%</li>
+                                <li>Implemented <strong>HIPAA-compliant RAG architecture</strong> on AWS with LangChain-based workflows</li>
+                            </ul>
+                            <div class="tech-used">
+                                <span>AWS Bedrock</span>
+                                <span>Neo4j</span>
+                                <span>LangChain</span>
+                                <span>LangGraph</span>
+                                <span>Pinecone</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="card-header">
+                                <div class="company-info">
+                                    <h3>Machine Learning Engineer</h3>
+                                    <span class="company-name">TheSmartBridge Pvt Ltd</span>
+                                </div>
+                                <span class="duration">Aug 2024 – Mar 2025</span>
+                            </div>
+                            <p class="experience-note">Operated at full-time engineer capacity · Independently owned product delivery cycles</p>
+                            <ul class="experience-achievements">
+                                <li>Owned end-to-end architecture of <strong>RAG pipelines</strong> for enterprise document analysis</li>
+                                <li>Designed and deployed LLM-based document summarization and QA systems for edtech products</li>
+                                <li>Reduced deployment turnaround by <strong>~40%</strong> by re-engineering ML training pipelines with MLflow tracking</li>
+                                <li>Established <strong>CI/CD pipelines</strong> using Docker and GitHub Actions for automated deployment</li>
+                                <li>Mentored junior engineers on RAG architecture patterns and MLflow best practices</li>
+                            </ul>
+                            <div class="tech-used">
+                                <span>LangChain</span>
+                                <span>MLflow</span>
+                                <span>Docker</span>
+                                <span>GitHub Actions</span>
+                                <span>FastAPI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="card-header">
+                                <div class="company-info">
+                                    <h3>Data Science Engineer</h3>
+                                    <span class="company-name">LetsGrowMore</span>
+                                </div>
+                                <span class="duration">May 2024 – Aug 2024 · Remote</span>
+                            </div>
+                            <ul class="experience-achievements">
+                                <li>Processed and analyzed <strong>100+ datasets</strong> using Pandas and NumPy, delivering EDA reports</li>
+                                <li>Built and evaluated end-to-end ML classification and regression models</li>
+                                <li>Designed interactive <strong>Power BI dashboards</strong> translating complex data into actionable business intelligence</li>
+                            </ul>
+                            <div class="tech-used">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Scikit-learn</span>
+                                <span>Power BI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Featured Work</span>
+                <h2 class="section-title">Key Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-hospital"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-status">Production</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Graph-RAG Medical Coding System</h3>
+                        <p class="project-description">
+                            Production system processing 500–1,200 clinical charts/day, converting unstructured 
+                            notes to ICD-10/CPT codes at 75–86% accuracy with 15x throughput improvement over manual coding.
+                        </p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">1,200+</span>
+                                <span class="metric-label">Charts/Day</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">86%</span>
+                                <span class="metric-label">CPT Accuracy</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">15x</span>
+                                <span class="metric-label">Speedup</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>AWS Bedrock</span>
+                            <span>Neo4j</span>
+                            <span>LangChain</span>
+                            <span>LangGraph</span>
+                            <span>HIPAA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-status">Deployed</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Agentic Knowledge Assistant</h3>
+                        <p class="project-description">
+                            Multi-agent system onboarding ~1,000 new joiners with sub-second response latency 
+                            and 500+ requests/day at peak — reduced policy lookup time by ~60%.
+                        </p>
+                        <div class="project-tech">
+                            <span>LangGraph</span>
+                            <span>CrewAI</span>
+                            <span>FAISS</span>
+                            <span>FastAPI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-status">Deployed</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Enterprise RAG Document Intelligence</h3>
+                        <p class="project-description">
+                            End-to-end RAG pipeline for multi-document QA and summarization deployed as a REST API. 
+                            MLflow experiment tracking reduced deployment turnaround by 40%.
+                        </p>
+                        <div class="project-tech">
+                            <span>LangChain</span>
+                            <span>ChromaDB</span>
+                            <span>FastAPI</span>
+                            <span>MLflow</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-chess"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-status">Completed</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Chess Piece Detection</h3>
+                        <p class="project-description">
+                            Real-time detection system for 12 chess piece classes using DenseNet121 
+                            with data augmentation and advanced preprocessing.
+                        </p>
+                        <div class="project-tech">
+                            <span>DenseNet121</span>
+                            <span>TensorFlow</span>
+                            <span>OpenCV</span>
+                            <span>CNN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-wallet"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-status">Live Demo</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>FinForge AI</h3>
+                        <p class="project-description">
+                            Personalized Financial Assistant leveraging AI to provide tailored financial 
+                            advice, expense tracking, and investment recommendations for users.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>LangChain</span>
+                            <span>FastAPI</span>
+                            <span>AWS</span>
+                        </div>
+                        <a href="https://github.com/abdulrahman-aiml/Finforge-AI" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-cloud-medical"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-status">Live Demo</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>CareCloud AI</h3>
+                        <p class="project-description">
+                            Healthcare management platform with AI-driven patient care recommendations, 
+                            appointment scheduling, and health monitoring dashboards.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>React</span>
+                            <span>AWS</span>
+                        </div>
+                        <a href="https://github.com/abdulrahman-aiml/healthcare-project" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-status">Live Demo</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Marketing Platform</h3>
+                        <p class="project-description">
+                            Personalized AI-driven marketing solution for targeted campaigns, customer 
+                            segmentation, and automated content generation for businesses.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>LangChain</span>
+                            <span>FastAPI</span>
+                            <span>ML</span>
+                        </div>
+                        <a href="https://github.com/abdulrahman-aiml/AI-Marketing-platform" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-fish"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-status">Deployed</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Fish Freshness Prediction</h3>
+                        <p class="project-description">
+                            AI-powered system predicting fish freshness using computer vision and 
+                            machine learning, deployed on AWS EC2 with real-time inference capabilities.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>CNN</span>
+                            <span>AWS EC2</span>
+                            <span>Computer Vision</span>
+                        </div>
+                        <a href="http://54.164.7.234/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-status">Deployed</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Military Defence Mission</h3>
+                        <p class="project-description">
+                            AI-driven defense operations system for mission planning, threat detection, 
+                            and strategic decision support deployed on cloud infrastructure.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>AWS</span>
+                            <span>Deep Learning</span>
+                            <span>Analytics</span>
+                        </div>
+                        <a href="http://18.212.221.137/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Credentials</span>
+                <h2 class="section-title">Certifications</h2>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-card featured">
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3>AWS Certified Cloud Practitioner</h3>
+                    <span class="cert-issuer">Amazon Web Services</span>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>TCS ION Career Edge</h3>
+                    <span class="cert-issuer">Young Professional</span>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>MySQL RDBMS Certification</h3>
+                    <span class="cert-issuer">Database Systems</span>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Business Analytics with Excel</h3>
+                    <span class="cert-issuer">Data Analysis</span>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>Power BI Certification</h3>
+                    <span class="cert-issuer">Business Intelligence</span>
+                </div>
+                <div class="cert-card pursuing">
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3>AWS ML Specialty</h3>
+                    <span class="cert-issuer">In Progress</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Academic Background</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="edu-content">
+                        <h3>Master of Business Administration (MBA)</h3>
+                        <span class="edu-specialization">IT Specialisation</span>
+                        <span class="edu-school">Osmania University, Hyderabad</span>
+                        <span class="edu-duration">Dec 2021 – Oct 2023</span>
+                        <p class="edu-coursework">Relevant coursework: SQL, Power BI, Business Analytics</p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="edu-content">
+                        <h3>Bachelor's in Commerce & Computer Applications</h3>
+                        <span class="edu-school">Osmania University, Hyderabad</span>
+                        <span class="edu-duration">Jun 2018 – Sep 2021</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-content">
+                    <div class="section-header">
+                        <span class="section-tag">Let's Connect</span>
+                        <h2 class="section-title">Get In Touch</h2>
+                    </div>
+                    <p class="contact-description">
+                        I'm always interested in discussing new opportunities, innovative AI projects, 
+                        or collaborations in the GenAI and healthcare automation space.
+                    </p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:abdulrmohammed.ai@gmail.com" class="contact-value">abdulrmohammed.ai@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Hyderabad, India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:abdulrmohammed.ai@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-visual">
+                    <div class="contact-illustration">
+                        <div class="floating-elements">
+                            <div class="float-element icon-1"><i class="fas fa-robot"></i></div>
+                            <div class="float-element icon-2"><i class="fas fa-brain"></i></div>
+                            <div class="float-element icon-3"><i class="fas fa-cloud"></i></div>
+                            <div class="float-element icon-4"><i class="fas fa-code"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="brand-text">MAR</span>
+                    <p>GenAI Engineer specializing in Healthcare Automation</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mohammed Abdul Rahman. All rights reserved.</p>
+                <p class="footer-tagline">Built with passion for AI innovation</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

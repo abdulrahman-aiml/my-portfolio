@@ -1,0 +1,64 @@
+MOHAMMED ABDUL RAHMAN
+GenAI Engineer  |  RAG & Agentic AI  |  AWS Bedrock  |  Production LLM Systems  |  Healthcare Automation
+abdulrmohammed.ai@gmail.com |  Hyderabad, India |  GitHub |  LinkedIn  |  AWS Certified Cloud Practitioner
+
+PROFESSIONAL SUMMARY
+
+Generative AI Engineer with ~2 years of experience building and shipping production-grade LLM systems for enterprise healthcare automation. Proven track record in RAG, Graph-RAG, and Agentic AI architectures on AWS Bedrock. Delivered measurable business impact — processing 500–1,200 medical charts/day, cutting processing time from 30 min to under 2 min (15x throughput), enabling ~25% workload reduction across 1,000+ coders. Full-cycle ownership from system architecture to cloud deployment on AWS.
+TECH STACK
+
+Languages	 Python · SQL · Bash
+Agentic AI	 Agentic Workflows · Multi-Agent Systems · Autonomous Agents · Model Context Protocol (MCP)
+Generative AI & LLMs	 RAG · Graph-RAG · Prompt Engineering · LLM Evaluation & Optimization · Fine-tuning
+AI Frameworks	 LangChain · LangGraph · CrewAI · FastAPI · Flask · Agno
+Vector & Graph DBs	 FAISS · ChromaDB · Pinecone · Neo4j
+MLOps	 MLflow · LangSmith · Docker · GitHub Actions · CI/CD Pipelines
+Cloud & Infra	 AWS Bedrock · AWS SageMaker · AWS S3 · AWS Lambda · Azure · GCP · Linux · GitLab
+NLP & Deep Learning	 Transformers (BERT, GPT) · NER · Text Classification · Sentiment Analysis · CNN · LSTM · TensorFlow · PyTorch · Scikit-learn
+Data & Visualization	 Pandas · NumPy · Power BI · EDA · Feature Engineering · Statistical Analysis
+PROFESSIONAL EXPERIENCE
+
+Ascent Healthcare Pvt Ltd |  AI/ML Engineer	May 2025 – Present
+•	Built a production LLM-powered medical coding system on Amazon Bedrock converting unstructured clinical notes into ICD-10, CPT, and modifier codes processing 500–1,200 charts/day at 75% ICD, 86% CPT, and 70% modifier accuracy.
+•	Achieved 15x throughput improvement (30 min → under 2 min per chart), enabling an estimated ~25% reduction in manual workload across 1,000+ medical coders, directly cutting operational costs.
+•	Architected a Graph-RAG pipeline combining Neo4j knowledge graphs with semantic vector retrieval (Pinecone, ChromaDB) for context-aware extraction of complex medical coding knowledge from clinical text.
+•	Deployed an Agentic AI knowledge assistant on internal SOPs and manuals, adopted across departments, onboarding ~1,000 new joiners with sub-second query latency, cutting policy lookup time by ~60%, handling 500+ requests/day at peak.
+•	Implemented HIPAA-compliant RAG architecture on AWS (Lambda, S3, EC2) with advanced prompt engineering and LangChain-based workflows for clinical entity extraction and billing code generation.
+•	Managed end-to-end system lifecycle: data ingestion pipelines, model experimentation with LangSmith, deployment workflows, and production monitoring. Collaborated with SMEs and data engineers to resolve edge cases and align outputs with compliance requirements.
+TheSmartBridge Pvt Ltd  |  Machine Learning Engineer (Intern)	Aug 2024 – Mar 2025
+Operated at full-time engineer capacity · Independently owned product delivery cycles across RAG, MLOps, and deployment
+•	Owned end-to-end architecture of RAG pipelines for enterprise document analysis — independently designed and delivered production-ready systems for client-facing edtech products serving thousands of learners.
+•	Designed and deployed LLM-based document summarization and QA systems that improved response relevance and task accuracy for client-facing edtech products.
+•	Reduced deployment turnaround by ~40% by re-engineering ML training pipelines and introducing MLflow-based experiment tracking — workflow adopted as the team standard.
+•	Established CI/CD pipelines using Docker and GitHub Actions for automated model deployment and monitoring, bringing DevOps discipline to a previously manual process.
+•	Built and productionised ML pipelines (ANN, CNN) for classification tasks across structured and image data, managing full lifecycle from preprocessing to REST API deployment.
+•	Mentored junior engineers on RAG architecture patterns and MLflow best practices, directly contributing to team capability uplift.
+LetsGrowMore  |  Data Science Engineer	May 2024 – Aug 2024  Remote
+•	Processed and analyzed 100+ datasets using Pandas and NumPy, delivering EDA reports and feature engineering pipelines across diverse business domains.
+•	Built and evaluated end-to-end ML classification and regression models using Scikit-learn, covering preprocessing, training, and performance evaluation.
+•	Designed interactive Power BI dashboards translating complex data outputs into actionable business intelligence for internal stakeholders.
+KEY PROJECTS
+
+Graph-RAG Medical Coding System  |  AWS Bedrock · Neo4j · LangChain · LangGraph
+•	Production system processing 500–1,200 clinical charts/day, converting unstructured notes to ICD-10/CPT codes at 75–86% accuracy with 15x throughput improvement over manual coding. HIPAA-compliant deployment on AWS.
+Agentic Knowledge Assistant  |  LangGraph · CrewAI · FAISS · FastAPI
+•	Multi-agent system onboarding ~1,000 new joiners with sub-second response latency and 500+ requests/day at peak — reduced policy lookup time by ~60% for healthcare operations teams.
+Enterprise RAG Document Intelligence Pipeline  |  LangChain · ChromaDB · FastAPI · MLflow
+•	End-to-end RAG pipeline for multi-document QA and summarization deployed as a REST API. MLflow experiment tracking reduced deployment turnaround by 40% and was adopted team-wide at Smart Bridge.
+Chess Piece Detection — Deep Learning  |  DenseNet121 · TensorFlow · OpenCV
+•	Built a real-time detection system for 12 chess piece classes using DenseNet121 with data augmentation and advanced preprocessing, achieving high-accuracy classification for real-time recognition.
+CERTIFICATIONS
+
+✦  AWS Certified Cloud Practitioner — Amazon Web Services	✦  TCS ION Career Edge — Young Professional
+✦  MySQL RDBMS Certification	✦  Business Analytics with Excel
+✦  Power BI Certification	✦  AWS ML Specialty (Pursuing)
+EDUCATION
+
+Master of Business Administration (MBA) — IT Specialisation	Dec 2021 – Oct 2023
+Osmania University, Hyderabad  |  Relevant coursework: SQL, Power BI, Business Analytics
+Bachelor's in Commerce & Computer Applications	Jun 2018 – Sep 2021
+Osmania University, Hyderabad
+ADDITIONAL INFORMATION
+
+Languages: English · Hindi · Telugu · Urdu (Professional Working Proficiency)  
+Soft Skills: Agile Project Management · Technical Documentation · Cross-functional Collaboration · Problem Solving
